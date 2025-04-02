@@ -1,4 +1,4 @@
-# VPC DESIGN
+# VPC DESIGN AND SET UP
 
 To design and set up a Virtual Private Cloud with both public and private subnets.Implement routing, security groups, and network access control lists(NACLs) to ensure proper communication and security within the VPC. Working in the AWS eu-west-1 (Ireland) region.
 
@@ -95,11 +95,15 @@ Subnets:
 Pupblic subnet: It is a subnet associated with a route table that has a route to internet gateway. It allows resources within it to access the public internet and be accessible from it.
 Private subnet: It is a network segment within a VPC that does not have a direct route to the internet. The resources within it require a Network Address Translation(NAT)device to connect to the internet. 
 
-Internet gateway(IGW):
-NAT gateway:
-Route Tables:
-Security groups:
-Network access control list(NACLs): Used to add additional security to subnets.
+Internet gateway(IGW): A network device that or software that facilitates communication between a private network and the internet.
+
+NAT gateway: It is a managed service that allows instances and resources in a private subnets of a VPC to connect to the internet. It also prevent the internet from initiating connections to those instances.
+
+Route Tables: Determines where traffic from a subnet or gateway is directed within a VPC. Public route table routes internet traffic from the public subnet to the IGW, while the private route tables routes internet traffic from the private subnet through NAT Gateway.
+
+Security groups: It acts as a firewall that controls both the inbound and outbound traffic for EC2 intances, to specify which traffic is permitted or denied.
+
+Network access control list(NACLs): A stateless firewall that controls traffic in and out of subnets with a VPC. Used to add additional security to subnets.
 
 
 
