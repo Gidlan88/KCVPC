@@ -87,6 +87,8 @@ Launching EC2 instance in the Private subnet
 ![image](https://github.com/user-attachments/assets/16dd50f6-abc1-40d3-a50a-ad443604a7bb)
 ![image](https://github.com/user-attachments/assets/eb8e0ef4-ee22-4506-99e4-65587b3b1645)
 
+
+
 PURPOSE AND FUNCTION OF COMPONENTS
 
 Virtual Private Cloud(VPC): This is a logicaly, secure isolated environment within a public cloud that allows organizations to define and control their own virtual network. It is a private cloud hosted within a pupblic cloud providers infrastructure like AWS.
