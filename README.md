@@ -58,6 +58,38 @@ Security group for private instances
 ![image](https://github.com/user-attachments/assets/dc0b6c23-cc9e-47b3-8442-631f8586f68d)
 ![image](https://github.com/user-attachments/assets/c4876e9c-163e-40e4-86ad-e16215d0db6a)
 
+Network ACLs(NACLs):
+
+Public Subnet NACL
+
+![image](https://github.com/user-attachments/assets/20434fe3-622e-4085-8812-a84d18a86675)
+![image](https://github.com/user-attachments/assets/91421bb3-875b-4b32-9d77-cfaf3b16e734)
+
+Private Subnet NACL
+![image](https://github.com/user-attachments/assets/d7698789-af5f-4031-8ca5-0ef4c6ed8d65)
+
+![image](https://github.com/user-attachments/assets/e3c50deb-7a30-4ced-bff8-da7f57517546)
+
+
+Launching EC2:
+
+Launching EC2 instance in the Public subnet
+
+![image](https://github.com/user-attachments/assets/2ef592c7-0823-4abc-a69c-940b140c245e)
+![image](https://github.com/user-attachments/assets/1463830a-5e41-45f9-b936-ec2a39a639c7)
+![image](https://github.com/user-attachments/assets/74af37ea-7367-4fbf-927e-80feaee8cc3e)
+
+
+
+
+Launching EC2 instance in the Private subnet
+
+![image](https://github.com/user-attachments/assets/16dd50f6-abc1-40d3-a50a-ad443604a7bb)
+![image](https://github.com/user-attachments/assets/eb8e0ef4-ee22-4506-99e4-65587b3b1645)
+
+
+
+
 
 
 
